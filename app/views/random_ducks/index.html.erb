@@ -1,0 +1,9 @@
+<h1>Random duck page</h1>
+
+<div>
+  <% @ducks.each do |duck| %>
+    <%= image_tag(duck, size: "300x200") %>
+  <% end %>
+</div>
+
+<p> <%= link_to 'Back', root_path %> </p>

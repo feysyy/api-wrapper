@@ -1,0 +1,11 @@
+<h1>Hero Images</h1>
+
+<div>
+  <% @all_hero.each do |hero| %>
+    <p> <%= hero %>  </p>
+    <p> <%= hero.first.to_s.titleize %> </p>
+    <%= image_tag(hero.last, size: "80x80") %>
+    <br>
+  <% end %>
+
+</div>
