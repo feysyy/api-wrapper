@@ -6,5 +6,4 @@ class RandomDogsController < ApplicationController
       @dogs << DogFetcher.request("woof.json")
     end
   end
-
 end

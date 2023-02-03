@@ -5,7 +5,6 @@ class RandomDucksController < ApplicationController
     @ducks = []
 
     3.times do 
-      # @ducks << Fetcher.request('random')
       @ducks << DuckFetcher.request("random")
     end
   end

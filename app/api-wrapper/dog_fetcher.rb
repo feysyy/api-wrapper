@@ -12,6 +12,5 @@ class DogFetcher
 
       response.url
     end
-
   end
 end
