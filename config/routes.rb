@@ -7,6 +7,6 @@ Rails.application.routes.draw do
   # get '/hero_images', to: "heroes#index", as: 'hero_images'
   # get '/dota', to: "heroes#dota", as: 'dota'
   get '/random_dogs', to: "random_dogs#dogs", as: 'random_dogs'
-  get '/random_foxs', to: "random_foxs#foxs", as: 'random_foxs'
+  # get '/random_foxs', to: "random_foxs#foxs", as: 'random_foxs'
   get '/home', to: "homepages#home"
 end
